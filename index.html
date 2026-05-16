@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Николай Коротков — Бизнес-аналитик</title>
+    
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== ШАПКА ==================== -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            
+            <a href="#" class="logo">
+                <span class="logo__icon">НК</span>
+                Николай Коротков
+            </a>
+
+            <nav class="nav" id="nav">
+                <a href="#about" class="nav__link">Обо мне</a>
+                <a href="#experience" class="nav__link">Опыт</a>
+                <a href="#education" class="nav__link">Обучение</a>
+                <a href="#projects" class="nav__link">Проекты</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+
+            <div class="header__actions">
+                <a href="#contacts" class="btn btn--primary">Связаться</a>
+            </div>
+
+            <button class="burger" id="burger" aria-label="Меню">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- ==================== ГЛАВНЫЙ ЭКРАН ==================== -->
+    <section class="hero">
+        <div class="container hero__inner">
+            
+            <div class="hero__content">
+                <span class="hero__badge">● Открыт к предложениям</span>
+                <h1 class="hero__title">
+                    Привет, я <span class="text-gradient">Николай</span>
+                </h1>
+                <p class="hero__subtitle">Начинающий бизнес-аналитик</p>
+                <p class="hero__desc">
+                    Помогаю бизнесу находить точки роста там, где другие видят просто таблицы. 
+                    Разбираюсь в юнит-экономике и маржинальности — не как в абстрактных метриках, 
+                    а как в рычагах для прибыли. Учусь в Школе 21 от Сбера, самостоятельно осваиваю SQL и Python. 
+                    Ищу команду, которой нужен не просто отчёт, а ответ на вопрос «что делать дальше».
+                </p>
+                <div class="hero__buttons">
+                    <a href="#projects" class="btn btn--primary btn--large">Мои кейсы ↓</a>
+                    <a href="#contacts" class="btn btn--outline btn--large">Написать мне</a>
+                </div>
+                <div class="hero__contacts-row">
+                    <a href="mailto:nikolaytestqa@gmail.com">nikolaytestqa@gmail.com</a>
+                    <span class="hero__dot"></span>
+                    <a href="https://t.me/nickolau" target="_blank" rel="noopener">@nickolau</a>
+                </div>
+            </div>
+
+            <div class="hero__image">
+                <div class="avatar-wrapper">
+                    <div class="avatar">
+                        <img src="https://placehold.co/400x400/1a1a2e/a855f7?text=Ваше+фото" alt="Николай Коротков">
+                    </div>
+                    <div class="avatar__glow"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== ОБО МНЕ ==================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__label">Обо мне</span>
+                <h2 class="section-header__title">Почему бизнес-аналитика</h2>
+            </div>
+
+            <div class="about__grid">
+                <div class="about__text">
+                    <p>
+                        Я пришёл в аналитику через практику. Работая менеджером маркетплейсов, 
+                        я ежедневно сталкивался с цифрами: продажи, конверсия, оборачиваемость, 
+                        юнит-экономика. Постепенно понял, что именно умение превращать цифры 
+                        в решения приносит наибольшую пользу бизнесу.
+                    </p>
+                    <p>
+                        Сейчас я учусь в <strong>Школе 21 от Сбера</strong>. Методология «равный — равному» 
+                        учит самостоятельно разбираться в сложных темах и находить неочевидные решения. 
+                        Параллельно осваиваю SQL и Python — инструменты, которые помогают мне 
+                        автоматизировать расчёты и работать с данными быстрее.
+                    </p>
+                    <p>
+                        Для меня отчёт — это не просто набор цифр, а ответ на вопрос «что делать дальше». 
+                        Учусь видеть за метриками реальные бизнес-решения и точки роста.
+                    </p>
+                </div>
+
+                <div class="about__facts">
+                    <div class="fact">
+                        <span class="fact__number">1+</span>
+                        <span class="fact__label">года работы с маркетплейсами</span>
+                    </div>
+                    <div class="fact">
+                        <span class="fact__number">1 000+</span>
+                        <span class="fact__label">SKU под управлением</span>
+                    </div>
+                    <div class="fact fact--centered">
+                        <span class="fact__number">21</span>
+                        <span class="fact__label">Школа 21 (Сбер)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ОПЫТ РАБОТЫ ==================== -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__label">Опыт работы</span>
+                <h2 class="section-header__title">Что я уже умею</h2>
+            </div>
+
+            <div class="timeline">
+                
+                <div class="timeline__item">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__card">
+                        <span class="timeline__date">2025 — настоящее время</span>
+                        <h3>Менеджер маркетплейсов</h3>
+                        <p class="timeline__company">Крупный продавец на Ozon и Wildberries</p>
+                        <ul>
+                            <li>Управляю ассортиментом из 1 000+ SKU</li>
+                            <li>Формирую ежедневную и ежемесячную отчётность по ключевым метрикам в Excel и Google Таблицах</li>
+                            <li>Анализирую юнит-экономику каждой товарной позиции</li>
+                            <li>Провожу ABC-анализ ассортимента и мониторю динамику конкурентов</li>
+                            <li>Провожу A/B-тестирование карточек товаров, анализирую влияние ценовой политики на конверсию; корректирую стратегии и участие в акциях на основе данных</li>
+                            <li>Формирую отчёты по возвратам и претензиям, выявляю закономерности и минимизирую потери по проблемным SKU</li>
+                            <li>Координирую поставки с китайскими партнёрами и отгрузки по модели FBO, обеспечиваю точность данных на всех этапах цепочки поставок</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ОБУЧЕНИЕ ==================== -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__label">Обучение</span>
+                <h2 class="section-header__title">Где я учусь</h2>
+            </div>
+
+            <div class="edu-cards">
+                
+                <!-- Школа 21 -->
+                <div class="edu-card edu-card--featured">
+                    <span class="edu-card__badge">Сейчас</span>
+                    <div class="edu-card__icon">🏫</div>
+                    <h3>Школа 21 от Сбера</h3>
+                    <p class="edu-card__period">2026 — настоящее время</p>
+                    <p>
+                        Прохожу практический трек по бизнес-анализу. Методология peer-to-peer: 
+                        никаких лекций — только проекты, приближенные к реальным задачам. 
+                        Первый модуль позади:
+                    </p>
+                    <p>
+                        <strong>Декомпозиция</strong> — разбираю сложные задачи на части, строю глоссарии.
+                    </p>
+                    <p>
+                        <strong>Источники информации</strong> — выявляю и каталогизирую документы, сайты, нормативные акты.
+                    </p>
+                    <p>
+                        <strong>Глоссарий</strong> — создаю единый словарь терминов для команды и заказчика.
+                    </p>
+                    <p>
+                        <strong>Жизненный цикл ПО</strong> — понимаю этапы разработки и роль аналитика на каждом из них.
+                    </p>
+                    <div class="edu-card__skills">
+                        <span>Декомпозиция</span>
+                        <span>Глоссарий</span>
+                        <span>Источники информации</span>
+                        <span>Жизненный цикл ПО</span>
+                        <span>Peer-to-peer</span>
+                        <span>Системное мышление</span>
+                    </div>
+                </div>
+
+                <!-- Курсы -->
+                <div class="edu-card">
+                    <div class="edu-card__icon">📊</div>
+                    <h3>Курсы по аналитике</h3>
+                    <ul class="edu-card__list">
+                        <li>
+                            <strong>Бизнес-аналитик в IT от А до Я: профессия с нуля</strong>
+                            <span>— Stepik, в процессе</span>
+                        </li>
+                        <li>
+                            <strong>Excel: основное для работы с массивами и базами данных</strong>
+                            <span>— Stepik, 2026</span>
+                        </li>
+                        <li>
+                            <strong>SQL для всех: от начинающих до продвинутых</strong>
+                            <span>— Stepik, в планах</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Самообразование -->
+                <div class="edu-card">
+                    <div class="edu-card__icon">📚</div>
+                    <h3>Самообразование</h3>
+                    <ul class="edu-card__list">
+                        <li>Книга «Спроси маму» Фитцпатрик Р. <span>— в планах</span></li>
+                        <li>Книга «Руководство к Своду знаний по бизнес-анализу» BABOK <span>— в планах</span></li>
+                        <li>Книга «Разработка требований к программному обеспечению» Вигерс К., Битти Дж. <span>— в планах</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ПРОЕКТЫ / КЕЙСЫ ==================== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__label">Проекты и кейсы</span>
+                <h2 class="section-header__title">Что я уже сделал</h2>
+                <p class="section-header__desc">Реальные задачи из работы с маркетплейсами и учёбы.</p>
+            </div>
+
+            <div class="carousel-wrapper">
+                <button class="carousel__arrow carousel__arrow--left" aria-label="Назад">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="carousel">
+                    <div class="carousel__track" id="carouselTrack">
+                        
+                        <!-- Кейс 1: Школа 21 -->
+                        <div class="carousel__card project-card">
+                            <div class="project-card__header">
+                                <span class="project-card__number">Кейс 01</span>
+                                <span class="project-card__tag">Школа 21</span>
+                            </div>
+                            <h3>Роль и функции ИТ-аналитика в команде разработки</h3>
+                            <p>
+                                Учебный проект BSA00: освоил жизненный цикл ИТ-систем, роли участников команды 
+                                и базовые инструменты аналитика — от выявления источников информации до декомпозиции.
+                            </p>
+                            <div class="project-card__results">
+                                <div class="project-result">
+                                    <span class="project-result__value">6</span>
+                                    <span class="project-result__label">выполненных заданий</span>
+                                </div>
+                                <div class="project-result">
+                                    <span class="project-result__value">2</span>
+                                    <span class="project-result__label">бизнес-задачи</span>
+                                </div>
+                            </div>
+                            <a href="project-bsa00.html" class="btn btn--outline" style="margin-top: 16px; width: 100%;">Подробнее →</a>
+                            <a href="https://github.com/nickolausss/project_bsa00" target="_blank" rel="noopener" class="btn btn--outline" style="margin-top: 8px; width: 100%;">Репозиторий проекта ↗</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="carousel__arrow carousel__arrow--right" aria-label="Вперёд">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="carousel__dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- ==================== НАВЫКИ ==================== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__label">Навыки</span>
+                <h2 class="section-header__title">Мой инструментарий бизнес-аналитика</h2>
+            </div>
+
+            <div class="skills__grid">
+                
+                <div class="skill-group">
+                    <h3>📊 Анализ данных</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL (базовый)</span>
+                        <span class="skill-tag">Excel / Google Таблицы</span>
+                        <span class="skill-tag">Сводные таблицы</span>
+                        <span class="skill-tag">ABC-анализ</span>
+                        <span class="skill-tag">Юнит-экономика</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>🛠 Технические инструменты</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python для расчётов</span>
+                        <span class="skill-tag">SQL-запросы</span>
+                        <span class="skill-tag">Git / Bash</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>🛒 Маркетплейсы</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Ozon</span>
+                        <span class="skill-tag">Wildberries</span>
+                        <span class="skill-tag">Яндекс.Маркет</span>
+                        <span class="skill-tag">E-virma</span>
+                        <span class="skill-tag">SEO карточек</span>
+                        <span class="skill-tag">FBO</span>
+                        <span class="skill-tag">A/B-тестирование</span>
+                        <span class="skill-tag">Юнит-экономика</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>🤝 Бизнес-навыки</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Декомпозиция</span>
+                        <span class="skill-tag">Глоссарий</span>
+                        <span class="skill-tag">Источники информации</span>
+                        <span class="skill-tag">Жизненный цикл ПО</span>
+                        <span class="skill-tag">Peer-to-peer</span>
+                        <span class="skill-tag">Системное мышление</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== КОНТАКТЫ ==================== -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__label">Контакты</span>
+                <h2 class="section-header__title">Буду рад пообщаться</h2>
+                <p class="section-header__desc">Ищу стажировку или позицию младшего бизнес-аналитика.</p>
+            </div>
+
+            <div class="contacts__cards">
+                <div class="contact-card">
+                    <span class="contact-card__icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="M22 4L12 13 2 4"/>
+                        </svg>
+                    </span>
+                    <h3>Email</h3>
+                    <p>nikolaytestqa@gmail.com</p>
+                    <a href="mailto:nikolaytestqa@gmail.com">Написать</a>
+                </div>
+                <div class="contact-card">
+                    <span class="contact-card__icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.27.27-.56.27l.2-2.83 5.15-4.65c.23-.2-.05-.31-.35-.11l-6.37 4.01-2.74-.94c-.6-.19-.61-.6.13-.89l10.73-4.13c.5-.18.93.11.77.85z"/>
+                        </svg>
+                    </span>
+                    <h3>Telegram</h3>
+                    <p>@nickolau</p>
+                    <a href="https://t.me/nickolau" target="_blank" rel="noopener">Написать</a>
+                </div>
+                <div class="contact-card">
+                    <span class="contact-card__icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </span>
+                    <h3>GitHub</h3>
+                    <p>nickolausss</p>
+                    <a href="https://github.com/nickolausss" target="_blank" rel="noopener">Открыть</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== ПОДВАЛ ==================== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>© 2026 Николай Коротков. Начинающий бизнес-аналитик.</p>
+            <div class="footer__links">
+                <a href="#about">Обо мне</a>
+                <a href="#experience">Опыт</a>
+                <a href="#education">Обучение</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
